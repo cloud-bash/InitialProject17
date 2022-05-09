@@ -53,7 +53,6 @@ public class CourseController {
     public void updateCourse(@PathVariable long id, @RequestBody Course course) {
         repository.save(course);
     }
-    // PATCH - Update a part of a resource
 
     // DELETE - Delete a resource
     @DeleteMapping("/courses/{id}")
